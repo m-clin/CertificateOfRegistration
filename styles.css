@@ -1,0 +1,19 @@
+.logo img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    position: absolute;
+    margin-left: 400px;
+}
+
+.header {
+    text-align: center;
+    margin-bottom: -50px;
+}
+
+
+.cor {
+    margin-bottom: -15px;
+    text-align: center;
+    letter-spacing: 5px;
+}
