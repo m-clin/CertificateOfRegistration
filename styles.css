@@ -1,19 +1,72 @@
-.logo img {
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header img {
     width: 100px;
     height: 100px;
     float: left;
+    margin: -15px 0 0 400px;
     position: absolute;
-    margin-left: 400px;
 }
 
-.header {
+#head-text, #cert {
     text-align: center;
-    margin-bottom: -50px;
+    margin-top: 20px;
+    font-family: sans-serif;
 }
 
+#cert {
+    letter-spacing: 8px;
+    font-size: 25px;
+    font-family: "Arial Black";
+}
 
-.cor {
-    margin-bottom: -15px;
+main{
+    margin: 0 20px 0 20px;
+}
+
+#regis, #regno {
+    margin: 0 0 5px 20px ;
+}
+
+#regno {
+    color: red;
+}
+
+#table-1 {
+    border: solid 1px;
+    width: 100%;
+    font-family: "Arial";
+    border-spacing: 0;
+}
+
+#th-1, #th-2 {
+    font-size: 20px;
     text-align: center;
-    letter-spacing: 5px;
+    background-color: #b4cfec;
+    border-bottom: solid 1px;
+}
+
+#th-2 {
+    border-top: solid 1px;
+    font-size: 15px;
+}
+
+#code, #subj, #u, #ni, #t, #sec, #sched, #fac {
+    text-align: center;
+    font-weight: bold;
+}
+
+#code {
+    column-width: 20px;
+}
+
+#subj {
+    column-width: 40px;
+}
+
+#u {
+    column-width: 15px;
 }
