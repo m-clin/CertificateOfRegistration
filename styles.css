@@ -39,34 +39,55 @@ main{
     border: solid 1px;
     width: 100%;
     font-family: "Arial";
-    border-spacing: 0;
+
 }
 
-#th-1, #th-2 {
+#th-1 {
     font-size: 20px;
     text-align: center;
     background-color: #b4cfec;
     border-bottom: solid 1px;
 }
 
-#th-2 {
+#blank-1 {
+    border-bottom: solid 1px;
     border-top: solid 1px;
-    font-size: 15px;
+    border-color: black;
+    font-size: 6px;
 }
 
 #code, #subj, #u, #ni, #t, #sec, #sched, #fac {
-    text-align: center;
+    background-color: #b4cfec;
+    border-top: solid 1px;
+    font-size: 15px;
     font-weight: bold;
+    text-align: center;
 }
 
 #code {
-    column-width: 20px;
+    column-width: 30px;
 }
 
 #subj {
-    column-width: 40px;
+    column-width: 300px;
 }
 
 #u {
-    column-width: 15px;
+    column-width: 20px;
+}
+
+#ni {
+    column-width: 20px;
+}
+
+#t {
+    column-width: 25px;
+}
+
+#sec {
+    column-width: 50px;
+}
+
+#sched {
+    column-width: 150px;
 }
