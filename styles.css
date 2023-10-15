@@ -20,7 +20,7 @@ header img {
 #cert {
     letter-spacing: 8px;
     font-size: 25px;
-    font-family: "Arial Black";
+    font-family: "Arial Black", sans-serif;
 }
 
 main{
@@ -38,8 +38,8 @@ main{
 #table-1 {
     border: solid 1px;
     width: 100%;
-    font-family: "Arial";
-
+    font-family: "Arial", sans-serif;
+    border-spacing: 0;
 }
 
 #th-1 {
@@ -47,6 +47,10 @@ main{
     text-align: center;
     background-color: #b4cfec;
     border-bottom: solid 1px;
+}
+
+#coll {
+    column-width: 400px;
 }
 
 #blank-1 {
@@ -65,29 +69,131 @@ main{
 }
 
 #code {
-    column-width: 30px;
+    column-width: 65px;
 }
 
 #subj {
-    column-width: 300px;
+    column-width: 350px;
 }
 
 #u {
-    column-width: 20px;
+    width: 25px;
 }
 
 #ni {
-    column-width: 20px;
+    width: 35px;
 }
 
 #t {
-    column-width: 25px;
+    width: 25px;
 }
 
 #sec {
-    column-width: 50px;
+    width: 150px;
 }
 
 #sched {
-    column-width: 150px;
+    column-width: 300px;
+}
+
+#fac {
+    column-width: 200px;
+}
+
+#unit {
+    text-align: right;
+    font-weight: bold;
+}
+
+#unit1, #unit2, #unit3 {
+    font-weight: bold;
+    border-top: solid 2px;
+    text-align: center;
+}
+
+#note {
+    font-size: 15px;
+}
+
+#fees, #paysched {
+    text-align: center;
+    letter-spacing: 8px;
+    background-color: #b4cfec;
+    border: solid 2px;
+    font-weight: bolder;
+}
+
+#rules {
+    text-align: center;
+    font-family: "Courier New", serif;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#blank-2 {
+    border: solid 1px;
+    font-size: 2px;
+}
+
+#fee1, #fee2, #fee3, #fee4, #fee5, #fee6, #fee7, #fee8, #fee9, #fee10, #fee11, #fee12, #fee13, #fee14, #fee15, #fee16, #total, #total2, #total4, #pymnt, #info {
+    border-left: solid 1px;
+    font-size: 15px;
+}
+
+#fee1\.0, #fee2\.0, #fee3\.0, #fee4\.0, #fee5\.0, #fee6\.0, #fee7\.0, #fee8\.0, #fee9\.0, #fee10\.0, #fee11\.0, #fee12\.0, #fee13\.0, #fee14\.0, #fee15\.0, #fee16\.0, #total1, #total3, #total5, #pymnt, #info {
+    border-right: solid 1px;
+    font-size: 15px;
+    text-align: right;
+}
+
+#fee16, #fee16\.0, #total, #total1, #total2, #total3, #info {
+    border-bottom: solid 1px;
+}
+
+#rule1, #rule2, #rule3, #rule4 {
+    text-align: justify;
+    font-family: "Courier New", serif;
+    font-size: 16px;
+}
+
+#receipt, #date {
+    text-align: center;
+    font-weight: bolder;
+}
+
+#space, #space1 {
+    border-bottom: solid 1px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+#total, #total1, #total2, #total3, #total4, #total5 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+#pymnt, #info {
+    font-size: 15px;
+    text-align: center;
+}
+
+#appr {
+    font-weight: bolder;
+}
+
+#space2 {
+    font-size: 200px;
+}
+
+#printed {
+    text-align: right;
+    font-size: 15px;
+}
+
+#th-2 {
+    font-size: 18px;
+    text-align: center;
+    background-color: #b4cfec;
+    border-top: solid 1px;
 }
