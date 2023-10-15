@@ -1,3 +1,5 @@
+/* Marclin R. Abarracoso BSIT3-B3 */
+
 * {
     margin: 0;
     padding: 0;
@@ -192,7 +194,6 @@ main{
 
 #signature img {
     width: 400px;
-    align-content: center;
 }
 
 #printed {
