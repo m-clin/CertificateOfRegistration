@@ -89,7 +89,7 @@ main{
 }
 
 #sec {
-    width: 150px;
+    width: 100px;
 }
 
 #sched {
@@ -182,8 +182,17 @@ main{
     font-weight: bolder;
 }
 
-#space2 {
-    font-size: 200px;
+.space2 {
+    font-size: 40px;
+}
+
+.space3 {
+    font-size: 150px;
+}
+
+#signature img {
+    width: 400px;
+    align-content: center;
 }
 
 #printed {
