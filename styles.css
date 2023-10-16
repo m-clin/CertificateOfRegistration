@@ -137,28 +137,37 @@ main{
     font-size: 2px;
 }
 
-#fee1, #fee2, #fee3, #fee4, #fee5, #fee6, #fee7, #fee8, #fee9, #fee10, #fee11, #fee12, #fee13, #fee14, #fee15, #fee16, #total, #total2, #total4, #pymnt, #info {
+.fee1, .total, .total1, #pymnt, #info {
     border-left: solid 1px;
     font-size: 15px;
 }
 
-#fee1\.0, #fee2\.0, #fee3\.0, #fee4\.0, #fee5\.0, #fee6\.0, #fee7\.0, #fee8\.0, #fee9\.0, #fee10\.0, #fee11\.0, #fee12\.0, #fee13\.0, #fee14\.0, #fee15\.0, #fee16\.0, #total1, #total3, #total5, #pymnt, #info {
+.fee2, .total1, #pymnt, #info {
     border-right: solid 1px;
     font-size: 15px;
     text-align: right;
 }
 
-#fee16, #fee16\.0, #total, #total1, #total2, #total3, #info {
+.fee3, .fee4, .total, .total1, #info {
     border-bottom: solid 1px;
 }
 
-#rule1, #rule2, #rule3, #rule4 {
+.fee3 {
+    border-left: solid 1px;
+}
+
+.fee4 {
+    border-right: solid 1px;
+    text-align: right;
+}
+
+.rule1 {
     text-align: justify;
     font-family: "Courier New", serif;
     font-size: 16px;
 }
 
-#receipt, #date {
+.receipt {
     text-align: center;
     font-weight: bolder;
 }
@@ -169,7 +178,7 @@ main{
     font-weight: bolder;
 }
 
-#total, #total1, #total2, #total3, #total4, #total5 {
+.total, .total1 {
     text-align: center;
     font-weight: bold;
     font-size: 18px;
