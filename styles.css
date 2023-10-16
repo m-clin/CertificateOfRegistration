@@ -207,3 +207,7 @@ main{
     background-color: #b4cfec;
     border-top: solid 1px;
 }
+
+h4 {
+    font-weight: normal;
+}
